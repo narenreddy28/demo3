@@ -1,0 +1,16 @@
+name: deploy_to_aws_lambda
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  job1: 
+    name: lambda_deployment
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: list all the files
+        run: ls -l
+    
