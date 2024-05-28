@@ -1,5 +1,1 @@
-print("HelloNarendra")
-
-
-Line1
-Line2
+print("Hello")
